@@ -305,9 +305,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    section {
-        background-color: lightgreen;
-    }
+   
     li { display: block;} 
     .logo {width:100px; }
     h2 { font-size: 230%; }
