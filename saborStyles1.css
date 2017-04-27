@@ -304,4 +304,14 @@ footer {
 
 }
 
-
+@media screen and (max-width: 480px) {
+    section {
+        background-color: lightgreen;
+    }
+    li { display: block;} 
+    .logo {width:100px; }
+    h2 { font-size: 260%; }
+    .hero {width:80%;}
+    div.jumbo {height:250px;}
+    .hero h3 { font-size: 55%;}
+}
