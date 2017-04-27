@@ -306,10 +306,13 @@ footer {
 
 @media screen and (max-width: 480px) {
    
-    li { display: block;} 
-    .logo {width:100px; }
+    li { display: inline-block;} 
+    .logo {width:100px; display: none;}
     h2 { font-size: 230%; }
     .hero {width:80%;}
     div.jumbo {height:250px;}
     .hero h3 { font-size: 55%;}
+    nav {left:-13px;top:0px;}
+    nav ul li a {padding:2px;margin-top:0px;}
+    nav ul li {margin-bottom: 5px;}
 }
