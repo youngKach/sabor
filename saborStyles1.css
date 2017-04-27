@@ -10,8 +10,8 @@ body {
     margin:0px;
     padding:0px; 
     background-color:rgb(242, 204, 90);
-    overflow-y: scroll; 
-    overflow-x: scroll; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
 
 }
 
@@ -24,31 +24,21 @@ header {
 
 .logo {
     position:absolute;
-    width:190px;
+    width:150px;
     height:auto; 
     top:-7px;
     left:7px;
-
-
 }
 
-nav {
 
-    position:absolute; 
-    right:10px; 
-    top:49px; 
-}
 
-ul {
-    list-style-type: none; 
+
+ul.topnav li {
+display: inline-block;
     text-decoration: none;
 }
 
-li {
 
-    display:inline-block;     
-
-}
 
 #active {
     background-color: rgba(242, 204, 90,0.8);
@@ -63,12 +53,22 @@ a {
     color: rgb(255,255,255);
 }
 
-nav ul li a {
-
+ ul.topnav li a {
+     display: block;
     background-color:rgba(193,39,45,1);  
-    margin:5px;
-    padding:15px;  
+    margin:5px; 
+    text-align: center;
+    padding: 14px 16px;
+   
 
+}
+ul.topnav {
+    float: right;
+    list-style-type: none;
+    margin: 4px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+   
 }
 
 .pageheading {
@@ -306,13 +306,14 @@ footer {
 
 @media screen and (max-width: 480px) {
    
-    li { display: inline-block;} 
+    ul.topnav li {display: block; } 
+    ul.topnav {float: none;}
+  
     .logo {width:100px; display: none;}
     h2 { font-size: 230%; }
     .hero {width:80%;}
     div.jumbo {height:250px;}
     .hero h3 { font-size: 55%;}
-    nav {left:-13px;top:0px;}
-    nav ul li a {padding:2px;margin-top:0px;}
-    nav ul li {margin-bottom: 5px;}
+   
+   
 }
