@@ -1,3 +1,4 @@
+if ($(window).width() > 480) { 
 var $thumb = $('a.hom'); 
 var size = $thumb.length; 
 var list=[];
@@ -8,8 +9,9 @@ for ( var i = 0; i < size; i++) {
     list[i] = $thumb.eq(i).attr("href");
 }
 
+// Crossfade function 
 function crossfade(ind) {
-    var $image = $('<img/>');
+    var $image = $('<img />');
     $image.attr({
         'src' : list[ind],
         'alt': '',
@@ -17,21 +19,20 @@ function crossfade(ind) {
 
     modal.open({
         content:$image, 
-        width: 950,
+        width: 1050,
         height: 660
     }); 
-
-
 }
 
+// Get the first picture selected 
 $(document).on('click','a.hom',function(e){  
 
     e.preventDefault(); 
     ind= $('a.hom').index(this);
-    //list[ind] = $thumb.eq(ind).attr("href");
     crossfade(ind);
 });
 
+// Right picture selector
 $(document).on('click', '.toggleRight', function(){
 
     if (ind === size-1) { ind=0; ind--;}
@@ -39,10 +40,9 @@ $(document).on('click', '.toggleRight', function(){
         ind++
         crossfade(ind);
     }  
-
-    // $('header').html("<p style='text-align:center'>Here it is:"+list[ind]+ "</p>");
 });
 
+// Left picture selector 
 $(document).on('click', '.toggleLeft', function(){
 
     if (ind === size-1) {ind = size-1; }
@@ -52,3 +52,5 @@ $(document).on('click', '.toggleLeft', function(){
         crossfade(ind);           
     }  
 });
+    
+}

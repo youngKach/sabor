@@ -1,42 +1,47 @@
 <!doctype html>
 <html>
-  <head>
-
-        <title> Sabor Guacamole|Contact Us </title>
+    <head>
+        <title> Sabor Guacamole | Contact Us </title>
         <meta charset="UTF-8">
         <meta name= "viewport" content="width=device-width, initial-scale=1.0">    
-        <link href ="saborStyles1.css" rel="stylesheet" > 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+        <link href="w3.css" rel="stylesheet" >
+        <link href="saborStyles1.css" rel="stylesheet" >
     </head>  
+
     <body>
-        <header>
-            <img class="logo" src="project_img/sabor_logo2.png" alt="sabor-logo" width="621px" height="492px"> 
+        <div class="hea w3-bar w3-padding-small w3-padding-16">
+            <img class="logo w3-hide-small" src="project_img/sabor_logo2.png" alt="sabor-logo" width="621px" height="492px"> 
 
             <nav>
-                <ul>
-                    <li><a href="index.htm">Home</a> </li>
-                    <li><a href="menu.htm" >Menu</a></li>
-                    <li><a href="gallery.htm" >Gallery</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="contact.htm" id="active">Contact</a></li>
-
+                <ul class="topnav">
+                    <li class="w3-hide-small"><a href="index.htm" >Home</a> </li>
+                    <li class="w3-hide-small"><a href="menu.htm">Menu</a></li>
+                    <li class="w3-hide-small"><a href="gallery.htm">Gallery</a></li>
+                    <li class="w3-hide-small"><a href="#about">About Us</a></li>
+                    <li class="w3-hide-small"><a href="contact.htm" id="active">Contact</a></li>
+                    <a id="showBtn"href="javascript:void(0)" class="w3-bar-item w3-button w3-medium w3-right w3-hide-large w3-hide-medium">&#9776;</a>
                 </ul>
-
             </nav>
 
-        </header>
-        
-        <div class="pageheading">
-<blockquote> Contact Us! </blockquote>
-</div>
-<div id="map"></div>
-        <script src="jsCopy/google-map.js"></script>
-       
-        
-        
-        
-         
+            <div id="smallNav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-medium ">
+                <a href="index.htm" class="w3-bar-item w3-button">Home</a>
+                <a href="menu.htm" class="w3-bar-item w3-button">Menu</a>
+                <a href="gallery.htm" class="w3-bar-item w3-button">Gallery</a>
+                <a href="#" class="w3-bar-item w3-button">About Us</a>
+                <a href="contact.htm" id="active" class="w3-bar-item w3-button">Contact</a>  
+            </div>
+        </div>
+
+        <div class="w3-medium w3-center w3-padding-large">
+            <h5> Come Visit Us! </h5>
+        </div>
+        <div class="w3-content w3-border"> 
+            <div id="map"></div>
+        </div>
+        <script src="jsCopy/google-map.js"></script> 
+        <script src="jsCopy/jquery-3.2.0.js"></script>
+        <script src="jsCopy/navSwitch.js"></script>  
     </body>
-  
+
 </html>
