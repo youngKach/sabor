@@ -1,13 +1,12 @@
 * {
     box-sizing: border-box; 
 }
-
-.w3-button:hover {color:#fff!important; background-color:rgba(242, 204, 90,0.8) !important}
-
 .w3-button {
     background-color: rgba(193,39,45,1) !important;
     color:white !important; 
 }
+.w3-button:hover {color:#fff!important; background-color:rgba(242, 204, 90,0.8) !important}
+
 body {
     width: 100%;
     position:relative;
@@ -16,7 +15,6 @@ body {
     background-color:rgb(242, 204, 90);
     overflow-y: auto; 
     overflow-x: auto; 
-
 }
 
 div.hea {
@@ -273,6 +271,6 @@ footer {
     div.jumbotron{height:400px;}
     div.photopad{width:100%;}
     #menudisplay {width:90%;}   
-    address {font-size: 10px;}
+   .w3-small {font-size:10px !important; }
     
 }
