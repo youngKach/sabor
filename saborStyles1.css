@@ -273,4 +273,6 @@ footer {
     div.jumbotron{height:400px;}
     div.photopad{width:100%;}
     #menudisplay {width:90%;}   
+    address {font-size: 10px;}
+    
 }
