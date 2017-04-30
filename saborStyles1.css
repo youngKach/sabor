@@ -260,14 +260,14 @@ footer {
     border: 1px solid grey;
     box-shadow: 3px 0px 0px grey;
 }
+.mapCont{overflow: hidden; width: 100%;}
+.map{max-width: 100%;}
 
 @media only screen and (max-width: 480px) {
-
     h1{font-size: 48px;}
     h3 {font-size: 12px;}
     div.jumbotron{height:400px;}
     div.photopad{width:100%;}
     #menudisplay {width:90%;}   
-    .w3-small {font-size:10px !important; }
-    .map{width:100%; overflow: hidden;}
+    .w3-small {font-size:10px !important; } 
 }
