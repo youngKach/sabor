@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box; 
 }
+
+.w3-button:hover {color:#fff!important; background-color:rgba(242, 204, 90,0.8) !important}
+
 .w3-button {
     background-color: rgba(193,39,45,1) !important;
     color:white !important; 
 }
-.w3-button:hover {color:#fff!important; background-color:rgba(242, 204, 90,0.8) !important}
 
 body {
     width: 100%;
@@ -15,6 +17,7 @@ body {
     background-color:rgb(242, 204, 90);
     overflow-y: auto; 
     overflow-x: auto; 
+
 }
 
 div.hea {
@@ -247,12 +250,6 @@ div.photopad {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-#map {
-
-    margin:auto;
-    height: 250px;  
-}
-
 footer {
 
     width: 100%;
@@ -271,6 +268,6 @@ footer {
     div.jumbotron{height:400px;}
     div.photopad{width:100%;}
     #menudisplay {width:90%;}   
-   .w3-small {font-size:10px !important; }
-    
+    .w3-small {font-size:10px !important; }
+    .map{width:400px;}
 }
