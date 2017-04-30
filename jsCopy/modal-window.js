@@ -2,11 +2,11 @@
 
 var modal = (function(){
     var $window = $(window);
-    var $modal = $('<div class = "modal" />');
+    var $modal = $('<div class = "modal w3-third" />');
     var $content = $('<div class = "modal-content" />'); 
-    var $close = $('<i class="fa fa-close modal-close" style="font-size:30px;color:red;cursor:pointer;"></i>'); 
-    var $right = $('<span class=" fa fa-chevron-right toggleRight" style="font-size:40px;color:red;cursor:pointer;"></span>');
-    var $left = $('<span class=" fa fa-chevron-left toggleLeft" style="font-size:40px;color:red;cursor:pointer;"></span>'); 
+    var $close = $('<i class="modal-close">&times;</i>'); 
+    var $right = $('<span class="toggleRight">&#10095</span>');
+    var $left = $('<span class="toggleLeft">&#10094;</span>'); 
 
     $modal.append($content,$close,$right,$left);  //add close button to modal 
 
