@@ -269,5 +269,5 @@ footer {
     div.photopad{width:100%;}
     #menudisplay {width:90%;}   
     .w3-small {font-size:10px !important; }
-    .map{width:400px;}
+    .map{width:100%; overflow: hidden;}
 }
