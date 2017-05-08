@@ -3,7 +3,11 @@
     <head>
         <title> Sabor Guacamole | Contact Us </title>
         <meta charset="UTF-8">
-        <meta name= "viewport" content="width=device-width, initial-scale=1.0">    
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="icon" href="project_img/favicon.png" type="image/png" />
+        <link href="http://fonts.googleapis.com/css?family=Hind" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="w3.css" rel="stylesheet" >
         <link href="saborStyles1.css" rel="stylesheet" >
@@ -11,14 +15,14 @@
 
     <body>
         <div class="hea w3-bar w3-padding-small w3-padding-16">
+            <a href="index.htm">
             <img class="logo w3-hide-small" src="project_img/sabor_logo2.png" alt="sabor-logo" width="621px" height="492px"> 
-
+            </a>
             <nav>
-                <ul class="topnav">
+                <ul class="topnav w3-lato">
                     <li class="w3-hide-small"><a href="index.htm" >Home</a> </li>
                     <li class="w3-hide-small"><a href="menu.htm">Menu</a></li>
-                    <li class="w3-hide-small"><a href="gallery.htm">Gallery</a></li>
-                    <li class="w3-hide-small"><a href="#about">About Us</a></li>
+                    <li class="w3-hide-small"><a href="about.htm">About Us</a></li>
                     <li class="w3-hide-small"><a href="contact.htm" id="active">Contact</a></li>
                     <a id="showBtn"href="javascript:void(0)" class="w3-bar-item w3-button w3-medium w3-right w3-hide-large w3-hide-medium">&#9776;</a>
                 </ul>
@@ -27,29 +31,34 @@
             <div id="smallNav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-medium ">
                 <a href="index.htm" class="w3-bar-item w3-button">Home</a>
                 <a href="menu.htm" class="w3-bar-item w3-button">Menu</a>
-                <a href="gallery.htm" class="w3-bar-item w3-button">Gallery</a>
-                <a href="#" class="w3-bar-item w3-button">About Us</a>
+                <a href="about.htm" class="w3-bar-item w3-button">About Us</a>
                 <a href="contact.htm" id="active" class="w3-bar-item w3-button">Contact</a>  
             </div>
         </div>
 
         <div class="brandColor"> 
-            <div class="w3-medium w3-center w3-padding-large">
-                <h5> Come Visit Us! </h5>
-            </div>
-            <div class="w3-content mapCont w3-center"> 
-                <a href="https://www.google.com/maps/place/Sabor+Guacamole/@36.0678451,-94.1743529,15z/data=!4m18!1m12!4m11!1m3!2m2!1d-94.1736234!2d36.0785287!1m6!1m2!1s0x87c96eea377abdb9:0x8c9ef9473a772c66!2ssaborguacamole!2m2!1d-94.173811!2d36.0778109!3m4!1s0x87c96eea377abdb9:0x8c9ef9473a772c66!8m2!3d36.0778109!4d-94.173811">
-                    <img src="project_img/staticmap.png" class="map" >
-                </a>
-            </div>
-    
-            
-            <br/><br/><br/>
-        </div>
-        <footer>
-            <address class="w3-center w3-small"> 1120 N Lindell Avenue, Fayetteville, Ar 72701 <span>|</span> <a href="tel:1-479-316-8383">+1 (479) 316-8383</a></address>
 
-        </footer>
+            <div class="w3-content w3-padding-large w3-padding-64">
+                <div class="mapCont w3-center"> 
+                    <a href="https://www.google.com/maps/place/Sabor+Guacamole/@36.0678451,-94.1743529,15z/data=!4m18!1m12!4m11!1m3!2m2!1d-94.1736234!2d36.0785287!1m6!1m2!1s0x87c96eea377abdb9:0x8c9ef9473a772c66!2ssaborguacamole!2m2!1d-94.173811!2d36.0778109!3m4!1s0x87c96eea377abdb9:0x8c9ef9473a772c66!8m2!3d36.0778109!4d-94.173811">
+                        <img class="map" src="https://maps.googleapis.com/maps/api/staticmap?center=36.077774, -94.173730&zoom=18&size=640x350&maptype=roadmap&markers=36.077774, -94.173730" >
+                    </a>
+                </div>
+                <div> 
+
+                    <h6 class="w3-hind w3-center">Sabor Guacamole Mexican Restaurant</h6>
+                    <ul class="w3-montserrat">
+                        <li><i class="fa fa-phone"></i><a style="text-decoration:none;s"href="tel:4793168383">479-316-8383 <span style="font-size:12px; color:red;">(Order Now!)</span></a></li>
+                        <li><i class="fa fa-map-marker"></i>1120 N Lindell Avenue,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fayetteville, Ar 72701</li>
+                    </ul>
+                </div>
+                <div class="w3-center">
+                    <a href="https://www.facebook.com/pg/SaborGuacamolerestaurant/photos/" target="_blank"><i class="fa fa-facebook-square w3-xlarge"></i></a>
+                    <i class="fa fa-instagram w3-xlarge"></i>
+                </div>
+            </div>
+        </div>
+
         <script src="jsCopy/jquery-3.2.0.js"></script>
         <script src="jsCopy/navSwitch.js"></script>  
     </body>
