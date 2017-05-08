@@ -255,7 +255,7 @@ div.photopad {
     margin-left: auto;
     margin-right: auto;
     border-bottom: 2px solid white;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .menuHead img {
@@ -358,8 +358,12 @@ footer {
         font-size: 40px;
     }
 
-    h3, h4, #row2 p, .aboutClassTop blockquote p i {
+    h4, #row2 p, .aboutClassTop blockquote p i {
         font-size: 13px;
+    }
+    
+    h3 {
+        font-size:10px;
     }
 
     div.jumbotron{
