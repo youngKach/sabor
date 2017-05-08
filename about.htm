@@ -1,0 +1,108 @@
+<!-- Author: Kachi Ndubuisi 
+Title:about.htm -->
+<!doctype html>
+<html>
+    <head>
+        <title> Sabor Guacamole About Us </title>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0">  
+        
+        <link rel="icon" href="project_img/favicon.png" type="image/png" />
+        <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Hind:600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="w3.css" rel="stylesheet" >
+        <link href="saborStyles1.css" rel="stylesheet" >
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="hea w3-bar w3-padding-small w3-padding-16">
+            <a href="index.htm">
+                <img class="logo w3-hide-small" src="project_img/sabor_logo2.png" alt="sabor-logo" width="621px" height="492px"> 
+            </a>
+            <nav>
+                <ul class="topnav w3-lato">
+                    <li class="w3-hide-small"><a href="index.htm" >Home</a> </li>
+                    <li class="w3-hide-small"><a href="menu.htm" >Menu</a></li>
+                    <li class="w3-hide-small" ><a href="about.htm" id="active">About Us</a></li>
+                    <li class="w3-hide-small"><a href="contact.htm">Contact</a></li>
+                    <a id="showBtn"href="javascript:void(0)" class="w3-bar-item w3-button w3-medium w3-right w3-hide-large w3-hide-medium">&#9776;</a>
+                </ul>
+
+            </nav>
+            <div id="smallNav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-medium ">
+                <a href="index.htm" class="w3-bar-item w3-button">Home</a>
+                <a href="menu.htm" class="w3-bar-item w3-button">Menu</a>
+                <a href="about.htm" class="w3-bar-item w3-button" id="active">About Us</a>
+                <a href="contact.htm" class="w3-bar-item w3-button">Contact</a>  
+            </div>
+        </div>
+        <!-- Header -->
+
+        <div class="brandColor">
+            <div class="w3-row aboutClassTop">  
+                <div class="w3-center">
+                    <img src="project_img/sabor_inside.jpg" height="200px" width="auto"/>
+                    <img src="project_img/sabor_patio.jpg" height="200px" width="auto"/>
+                    <img src="project_img/sabor_inside3.jpg" height="200px" width="auto"/>
+                    <img src="project_img/sabor_inside4.jpg" height="200px" width="auto"/>
+                    <img src="project_img/sabor_inside7.jpg" height="200px" width="auto"/>
+                    <img  src="project_img/sabor_inside2.jpg" height="200px" width="auto"/>
+                </div> 
+
+                <div class="w3-half w3-xxlarge aboutClass ">
+                    <p>Founded in the heart of Fayetteville, We are the home of the best Guacamole in town!</p>
+                </div>
+            </div>
+            <div class="w3-row" id="row2"> 
+                <div class="w3-cell w3-third w3-large" style="margin-top:90px;margin-right:20px;">
+                    <p>We take pride in using the <i><b>freshest ingredients,</b></i> cooked using our family's methods to bring an authentic feel to our guests.</p> 
+                </div>  
+
+                <!-- *******************Auto SlideShow******************************* -->              
+                <div class="w3-cell" id="slideShowHolder">
+                    <img id="slideImg" src="project_img/sabor_f1.jpg" height="400px" />
+                </div>
+
+                <img class="slideHide" src="project_img/sabor_f2.jpg" height="400px"/>
+                <img class="slideHide" src="project_img/sabor_f8.jpg" height="400px"/>
+                <img class="slideHide" src="project_img/sabor_f10.jpg" height="400px"/>
+                <img class="slideHide" src="project_img/sabor_f5.jpg" height="400px"/>
+                <img class="slideHide" src="project_img/sabor_f6.jpg" height="400px"/>
+                <img class="slideHide" src="project_img/sabor_f7.jpg" height="400px"/>
+                <img class="slideHide" src="project_img/sabor_f3.jpg" height="400px"/>
+                <img class="slideHide" src="project_img/sabor_f4.jpg" height="400px"/>
+                <!-- ******************************************************************* -->  
+
+            </div>
+
+            <div class="w3-row aboutClassTop">
+                <div class="w3-container w3-third aboutClass">
+                    <img src="project_img/sabor_welcome.jpg" height="450px;" class="w3-grayscale-max w3-hide-small" />
+                </div>
+                
+                    <blockquote class="w3-leftbar w3-light-grey w3-third w3-container" style="margin-left:80px;margin-top:64px">
+                        <span style="font-size:30px;color:red;">&#10077;</span><br>
+                        <p class="w3-large" style="margin-top:0px;"><i>The service and food here is so great! I totally recommend Sabor to anyone who wants authentic mexican food.</i></p>
+                        <p><span>&dash;</span>Kachi Ndubuisi</p>
+                    </blockquote>
+                
+
+            </div>
+
+            <br/><br/><br/>  
+        </div>
+
+        <footer>
+            <address class="w3-center w3-small"> 1120 N Lindell Avenue, Fayetteville, Ar 72701 
+                <span> | </span> 
+                Tel: (479)-316-8383 </address>
+        </footer>
+        <script src="jsCopy/jquery-3.2.0.js"></script>
+        <script src="jsCopy/navSwitch.js"></script>
+        <script src="jsCopy/slideshow.js"></script>
+
+
+    </body>
+</html>
