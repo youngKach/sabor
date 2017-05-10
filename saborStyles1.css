@@ -317,6 +317,7 @@ div.photopad {
     font-size: 30px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
+<<<<<<< HEAD
 }
 
 .toggleRight {
@@ -327,8 +328,29 @@ div.photopad {
 .toggleLeft:hover,
 .toggleRight:hover {
     background-color: rgba(0, 0, 0, 0.8);
+=======
 }
 
+.toggleRight {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+>>>>>>> c222d65f7edc130fdbddffc906f11cb9799b227b
+}
+
+.toggleLeft:hover,
+.toggleRight:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+<<<<<<< HEAD
+.colCenter { 
+    width: 25%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+=======
 
 .colCenter { 
     width: 25%;
@@ -337,6 +359,7 @@ div.photopad {
     margin-right: auto;
 }
 
+>>>>>>> c222d65f7edc130fdbddffc906f11cb9799b227b
 footer {
     width: 100%;
     padding: 20px 20px 5px 20px; 
@@ -372,6 +395,73 @@ footer {
         font-size: 10px;
     }
 
+<<<<<<< HEAD
+
+    div.jumbotron{
+        height:350px;
+    }
+
+    div.w3-display-bottommiddle {
+        margin-bottom:20px;
+    }
+
+    div.photopad, .menuDisplay, .mapCont + div, #row2  {
+        width:100%;
+    } 
+
+    .w3-small {
+        font-size:8px !important; 
+    } 
+
+    .menuHead {
+        height: 130px;
+    }
+
+    #slideShowHolder img {
+        height: 200px;
+    }
+
+    .aboutClass, #row2 {
+        margin:0px;
+    }
+
+    .aboutClass p {
+        font-size: 20px; 
+        margin: 30px;
+    }
+
+    .aboutClassTop img {
+        height: 100px;
+    }
+
+    #row2 div img {
+        width: 90%; 
+        margin-left:15px; 
+        padding: 0px;
+    }
+
+    #row2 div p {
+        width: 90%; 
+        margin-top: -80px; 
+        text-align: center; 
+        margin-left: auto; 
+        margin-right: auto;
+    } 
+
+    #row2 + div {
+        padding-top: 0px;
+    }
+
+    .aboutClassTop blockquote { 
+        width: 80%;
+        margin-left: 10% !important;
+    }
+    .aboutWidth {
+        width: 100%;
+       
+    }
+=======
+>>>>>>> c222d65f7edc130fdbddffc906f11cb9799b227b
 
     div.jumbotron{
         height:350px;
