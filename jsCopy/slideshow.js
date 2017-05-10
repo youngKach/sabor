@@ -15,6 +15,5 @@ function showSlides() {
 
     i++;
 }
-
 (function() {setInterval(showSlides,4000);}()) //run function every 4 seconds 
 
