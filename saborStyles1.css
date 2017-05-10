@@ -258,8 +258,6 @@ div.photopad {
     overflow: auto;
 }
 
-
-
 .menuHead img {
     width: 100%;
 }
@@ -317,7 +315,6 @@ div.photopad {
     font-size: 30px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-<<<<<<< HEAD
 }
 
 .toggleRight {
@@ -328,13 +325,11 @@ div.photopad {
 .toggleLeft:hover,
 .toggleRight:hover {
     background-color: rgba(0, 0, 0, 0.8);
-=======
 }
 
 .toggleRight {
     right: 0;
     border-radius: 3px 0 0 3px;
->>>>>>> c222d65f7edc130fdbddffc906f11cb9799b227b
 }
 
 .toggleLeft:hover,
@@ -342,7 +337,6 @@ div.photopad {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-<<<<<<< HEAD
 .colCenter { 
     width: 25%;
     margin-top: 5px;
@@ -350,8 +344,6 @@ div.photopad {
     margin-right: auto;
 }
 
-=======
-
 .colCenter { 
     width: 25%;
     margin-top: 5px;
@@ -359,7 +351,6 @@ div.photopad {
     margin-right: auto;
 }
 
->>>>>>> c222d65f7edc130fdbddffc906f11cb9799b227b
 footer {
     width: 100%;
     padding: 20px 20px 5px 20px; 
@@ -394,8 +385,6 @@ footer {
     h3 {
         font-size: 10px;
     }
-
-<<<<<<< HEAD
 
     div.jumbotron{
         height:350px;
@@ -460,8 +449,6 @@ footer {
         width: 100%;
        
     }
-=======
->>>>>>> c222d65f7edc130fdbddffc906f11cb9799b227b
 
     div.jumbotron{
         height:350px;

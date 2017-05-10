@@ -5,16 +5,11 @@ $(function(){
             $Nav.removeClass('w3-hide').addClass('w3-show');
         } else if ($Nav.hasClass('w3-show')){ 
             $Nav.removeClass('w3-show').addClass('w3-hide');
-<<<<<<< HEAD
             $Nav.on('click', function(){$Nav.removeClass('w3-show').addClass('w3-hide');});
         }
     }); 
 }); 
+ 
 
-=======
-        }
 
-    }); 
 
-}); 
->>>>>>> c222d65f7edc130fdbddffc906f11cb9799b227b
