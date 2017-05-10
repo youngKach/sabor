@@ -2,21 +2,68 @@
     box-sizing: border-box; 
 }
 
-.w3-button:hover {color:#fff!important; background-color:rgba(242, 204, 90,0.8) !important}
+.w3-button:hover {
+    color:#fff!important; 
+    background-color:rgba(193,39,45,1) !important}
 
 .w3-button {
     background-color: rgba(193,39,45,1) !important;
     color:white !important; 
 }
+
+.w3-threequarter {
+    width: 730px !important;
+}
+
+.w3-quarter {
+    width: 500px !important;
+}
+
 body {
     width: 100%;
     position:relative;
     margin:0px;
     padding:0px; 
-    background-color:rgb(242, 204, 90);
-    overflow-y: auto; 
-    overflow-x: auto; 
+    overflow: auto; 
+}
 
+p, #active, .brandColor {
+    color: rgb(64,64,64);
+}
+
+.w3-lato {
+    font-family: "Lato", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.w3-hind {
+    font-family: "Hind", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: none;
+}
+.w3-libre{
+    font-family: "Libre Baskerville", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+.w3-droid{
+    font-family: "Droid Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: none;
+}
+.w3-montserrat {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-style: normal;
+    letter-spacing: 1px; 
+}
+.brandColor{
+    background-color:rgba(242, 204, 90,0.9);
 }
 
 div.hea {
@@ -34,45 +81,50 @@ div.hea {
 
 ul.topnav li {
     display: inline-block;
+}
+
+ul li {
     text-decoration: none;
 }
 
-#active {
-    background-color: rgba(242, 204, 90,0.8);
-    color:rgba(0,0,0,0.8);
+ul {
+    list-style-type: none;
 }
 
-a {
-    font-family:helvetica; 
-    font-weight: lighter;
+.w3-card-4 a {
+    font-family: "Montserrat", Arial, sans-serif; 
     text-align: center; 
     text-decoration: none;
+    font-weight: 100;
     color: rgb(255,255,255);
 }
 
 ul.topnav li a {
-    display: block;
-    background-color:rgba(193,39,45,1); 
+    display: block; 
     margin:5px; 
     text-align: center;
     padding: 14px 16px;
+    text-align: center; 
+    text-decoration: none;
+    color: rgba(193,39,45,1);
+}
+
+ul.topnav li a:hover {
+    color: rgba(128,128,128,0.6);
 }
 
 ul.topnav {
     float: right;
-    list-style-type: none;
     margin: 4px 0px 0px 0px;
     padding: 0;
     overflow: hidden;
-
 }
 
 div.jumbotron {
     position: relative; 
     width:100%;
     height: 500px; 
-
-    background-image: url(project_img/sabor_jumbo.jpg); 
+    background-image: url(project_img/sabor_jumbo.jpg);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -87,11 +139,13 @@ div.jumbotron {
     left: 0;
     background-image: linear-gradient(to bottom right,rgba(0,0,0,1),rgba(193,39,45,0.1));
     opacity: 0.4;
+}
 
+div.w3-display-bottommiddle {
+    margin-bottom:40px;
 }
 
 h1 {
-
     font-family: "arial black";
     font-size: 500%;
     text-transform: uppercase; 
@@ -101,9 +155,7 @@ h1 {
 }
 
 h3 {
-
     white-space: nowrap; 
-    font-family:verdana;  
     font-weight: lighter; 
     color:rgb(225,225,225); 
     font-size:105%;
@@ -111,8 +163,7 @@ h3 {
 }
 
 h4 {
-    color:rgb(255,255,255);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 5px grey;
+    color: white;
 }
 
 h5 {
@@ -122,17 +173,29 @@ h5 {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 5px grey; 
 }
 
-.redbutton {
-    width:150px;
-    border-radius: 5px; 
-    font-family: verdana; 
+h6 + ul {
+    width: 300px;
+    margin: 0 auto 0 auto;
 }
 
-div#menButton {
-    width: 100%;
-    position: absolute;
-    bottom:15%; 
-    transform: translateX(40%);
+h6 + ul li i {
+    margin-right: 20px;
+}
+
+#menAnimate{
+    padding-left: 2px;
+    font-size: 19px;
+    -webkit-transition: padding-left 0.4s; 
+    transition: padding-left 0.4s;
+}
+
+.redbutton {
+    width:200px;
+    border-radius: 5px; 
+}
+
+.redbutton:hover #menAnimate {
+    padding-left: 15px;
 }
 
 section {
@@ -142,58 +205,76 @@ section {
 
 div.photopad {
     width:70%;
-    margin: 50px auto 50px auto; 
-    padding: 0px;
+    margin: 0px auto 0px auto; 
+    padding: 64px 0 0 0;
 }
 
 .cont {
     width:75%; 
     margin:auto;
-    padding:30px 0px 16px 0px;
-    font-family: helvetica;
-    font-weight:lighter; 
+    padding:30px 0px 5px 0px;
     text-align: center; 
 }
 
-#menudisplay {  
-    position: relative;
-    width:75%;
-    height: auto; 
-    padding:0px;
-    margin:auto;
+.aboutClass {
+    margin: 0px 10px 30px 145px;
+}
+
+.aboutClassTop {
+    padding-top: 64px;
+}
+
+.aboutClassTop + div {
+    margin-left:190px;
+}
+
+.aboutClassTop > div img, #slideShowHolder img {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+.contAbout {
+    width: 58.33%;   
+}
+
+#slideShowHolder img {
+    display: block;
+    height: 380px;
+    border-radius: 2px;
+}
+
+.slideHide {
+    display: none;
+}
+
+.menuDisplay {  
+    width: 58.33%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid white;
+    overflow: auto;
+}
+
+
+
+.menuHead img {
+    width: 100%;
+}
+
+.menuHead {
+    height: 200px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    overflow: hidden;
 }
 
 .content {
     width:100%;
     margin:auto;  
     padding:0px; 
-}
-
-.photocontainer:hover {
-
-    box-shadow: 0px 0px 8px 4px #777;
-}
-
-.modal{
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    position: fixed;
-    overflow: auto;
-    z-index: 1000; 
-    background-color: rgba(0,0,0,0.8);
-}
-
-
-.modal-content img { 
-    width: 80%;
-    max-width: 700px;
-    margin: auto auto auto auto;
-    display: block;
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
 }
 
 @-webkit-keyframes zoom {
@@ -215,7 +296,6 @@ div.photopad {
     color: white;
     font-size: 35px;
     font-weight: bold;
-
 }
 
 .modal-close:hover,
@@ -249,28 +329,112 @@ div.photopad {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-#map {
 
-    margin:auto;
-    height: 250px;  
+.colCenter { 
+    width: 25%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
-
     width: 100%;
-    height: auto; 
     padding: 20px 20px 5px 20px; 
-    color:rgb(225,0,0,); 
     background-color:rgba(255,255,255,1);
-    border: 1px solid grey;
     box-shadow: 3px 0px 0px grey;
 }
 
-@media only screen and (max-width: 480px) {
+.mapCont{overflow: hidden; width: 100%; margin-bottom: 8%;}
 
-    h1{font-size: 48px;}
-    h3 {font-size: 12px;}
-    div.jumbotron{height:400px;}
-    div.photopad{width:100%;}
-    #menudisplay {width:90%;}   
+.map{
+    max-width: 100%;
+}
+
+.mapCont + div {
+    width: 60%;
+    margin: 0px auto 9px auto;
+}
+.aboutWidth {
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+@media only screen and (max-width: 667px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h4, #row2 p, .aboutClassTop blockquote p i {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+
+    div.jumbotron{
+        height:350px;
+    }
+
+    div.w3-display-bottommiddle {
+        margin-bottom:20px;
+    }
+
+    div.photopad, .menuDisplay, .mapCont + div, #row2  {
+        width:100%;
+    } 
+
+    .w3-small {
+        font-size:8px !important; 
+    } 
+
+    .menuHead {
+        height: 130px;
+    }
+
+    #slideShowHolder img {
+        height: 200px;
+    }
+
+    .aboutClass, #row2 {
+        margin:0px;
+    }
+
+    .aboutClass p {
+        font-size: 20px; 
+        margin: 30px;
+    }
+
+    .aboutClassTop img {
+        height: 100px;
+    }
+
+    #row2 div img {
+        width: 90%; 
+        margin-left:15px; 
+        padding: 0px;
+    }
+
+    #row2 div p {
+        width: 90%; 
+        margin-top: -80px; 
+        text-align: center; 
+        margin-left: auto; 
+        margin-right: auto;
+    } 
+
+    #row2 + div {
+        padding-top: 0px;
+    }
+
+    .aboutClassTop blockquote { 
+        width: 80%;
+        margin-left: 10% !important;
+    }
+    .aboutWidth {
+        width: 100%;
+       
+    }
+
 }

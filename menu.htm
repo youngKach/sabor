@@ -1,106 +1,90 @@
 <!-- Author: Kachi Ndubuisi 
 Title:menu.htm -->
-
 <!doctype html>
 <html>
     <head>
         <title> Sabor Guacamole Menu </title>
         <meta charset="UTF-8">
-        <meta name= "viewport" content="width=device-width, initial-scale=1.0">    
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="icon" href="project_img/favicon.png" type="image/png" />
+        <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Hind:600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="w3.css" rel="stylesheet" >
-<link href="saborStyles1.css" rel="stylesheet" >
+        <link href="saborStyles1.css" rel="stylesheet" >
     </head>
 
     <body>
-     <div class="hea w3-bar w3-padding-small w3-padding-16">
-            <img class="logo w3-hide-small" src="project_img/sabor_logo2.png" alt="sabor-logo" width="621px" height="492px"> 
-
+        <div class="hea w3-bar w3-padding-small w3-padding-16">
+            <a href="index.htm">
+                <img class="logo w3-hide-small" src="project_img/sabor_logo2.png" alt="sabor-logo" width="621px" height="492px"> 
+            </a>
             <nav>
-                <ul class="topnav">
+                <ul class="topnav w3-lato">
                     <li class="w3-hide-small"><a href="index.htm" >Home</a> </li>
                     <li class="w3-hide-small"><a href="menu.htm" id="active">Menu</a></li>
-                    <li class="w3-hide-small"><a href="gallery.htm">Gallery</a></li>
-                    <li class="w3-hide-small"><a href="#about">About Us</a></li>
+                    <li class="w3-hide-small"><a href="about.htm">About Us</a></li>
                     <li class="w3-hide-small"><a href="contact.htm">Contact</a></li>
-                   <a id="showBtn"href="javascript:void(0)" class="w3-bar-item w3-button w3-medium w3-right w3-hide-large w3-hide-medium">&#9776;</a>
+                    <a id="showBtn"href="javascript:void(0)" class="w3-bar-item w3-button w3-medium w3-right w3-hide-large w3-hide-medium">&#9776;</a>
 
                 </ul>
 
             </nav>
-             <div id="smallNav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-medium ">
+            <div id="smallNav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-medium ">
                 <a href="index.htm" class="w3-bar-item w3-button">Home</a>
                 <a href="menu.htm" id="active" class="w3-bar-item w3-button">Menu</a>
-                <a href="gallery.htm" class="w3-bar-item w3-button">Gallery</a>
-                <a href="#" class="w3-bar-item w3-button">About Us</a>
+                <a href="about.htm" class="w3-bar-item w3-button">About Us</a>
                 <a href="contact.htm" class="w3-bar-item w3-button">Contact</a>  
             </div>
         </div>
 
-
-        <div class="w3-medium w3-center w3-padding-large">
-            <h4> Voted Top 10 Authentic Mexican Restaurant<br/>in Northwest Arkansas </h4>
-        </div>
-
-        <div id="menudisplay"> 
-            <div class="w3-row-padding w3-margin-top"> 
-                <div class="w3-third">
-                    <div class="w3-card-4"> 
-                    <a href="project_img/sabor_mnu5.jpg" target="_blank"> 
-
-                        <img src="project_img/sabor_mnu5.jpg" style="width:100%;" alt="sabor_menu1">
-                          </a>
-                        </div>
-                  
-
-                </div>
-
-                <div class="w3-third">
-                    <div class="w3-card-4">
-                    <a href="project_img/sabor_mnu4.jpg" target="_blank"> 
-
-                        <img src="project_img/sabor_mnu4.jpg" style="width:100%;"  alt="sabor_menu2" >
-                    </a>  
-                    </div>
-
-                </div>
-
-                <div class="w3-third">
-                    <div class="w3-card-4">
-                    <a href="project_img/sabor_mnu3.jpg" target="_blank"> 
-
-                        <img src="project_img/sabor_mnu3.jpg" style="width:100%;"  alt="sabor_menu3" >
-                    </a>
-                    </div>
-                </div>
+        <div style="background-color:rgba(0,77,0,0.9);"> 
+            <div class="w3-padding-large">
+                <h4 class="w3-montserrat w3-center"> Sabor Guacamole was Voted Top 10 <br />Best Authentic Mexican Restaurants<br/>in Northwest Arkansas </h4>
             </div>
-<div class="w3-row-padding w3-margin-top"> 
-                <div class="w3-third">
-                    <div class="w3-card-4">
-                    <a href="project_img/sabor_mnu2.jpg" target="_blank">
 
-                        <img src="project_img/sabor_mnu2.jpg" style="width:100%;"  alt="sabor_menu2" >
-                    </a>
-                    </div>
+            <div class="w3-container"> 
+                <div class="menuHead menuDisplay"> 
+                    <img src="project_img/sabor_menu.jpg" />
                 </div>
-
-                <div class="w3-third">
-                    <div class="w3-card-4">
-                    <a href="project_img/sabor_mnu1.jpg" target="_blank">
-                        <img src="project_img/sabor_mnu1.jpg" style="width:100%;"  alt="sabor_menu1" >
+                
+                <div class="menuDisplay" style="-webkit-overflow-scrolling: touch;"> 
+                    <a href="project_img/sabor_mnu5.jpg" target="_blank"> 
+                        <img src="project_img/sabor_mnu5.jpg" style="width:100%;" alt="sabor_menu1">
                     </a>
-                    </div>
-                </div>
 
-            </div>   
+                    <div class="w3-card-4">
+                        <a href="project_img/sabor_mnu4.jpg" target="_blank"> 
+                            <img src="project_img/sabor_mnu4.jpg" style="width:100%;"  alt="sabor_menu2" >
+                        </a>    
+                    </div>
+
+                    <div class="w3-card-4">
+                        <a href="project_img/sabor_mnu3.jpg" target="_blank"> 
+                            <img src="project_img/sabor_mnu3.jpg" style="width:100%;"  alt="sabor_menu3" >
+                        </a>
+                    </div>
+
+                    <div class="w3-card-4">
+                        <a href="project_img/sabor_mnu2.jpg" target="_blank">
+                            <img src="project_img/sabor_mnu2.jpg" style="width:100%;"  alt="sabor_menu2" >
+                        </a>
+                    </div>
+
+                    <div class="w3-card-4">
+                        <a href="project_img/sabor_mnu1.jpg" target="_blank">
+                            <img src="project_img/sabor_mnu1.jpg" style="width:100%;"  alt="sabor_menu1" >
+                        </a>
+                    </div>
+
+                </div> <!-- end of menuDisplay -->
+            </div> <!-- end of menu container -->
+
+            <br/><br/><br/>
         </div>
-
-        <br/><br/><br/>
-
         <footer>
-            <address class="w3-center w3-small"> 1120 N Lindell Avenue, Fayetteville, Ar 72701 
-                <span> | </span> 
-                Tel: (479)-316-8383 </address>
+            <address class="w3-center w3-small"> 1120 N Lindell Avenue, Fayetteville, Ar 72701 | Tel:(479)-316-8383 </address>
 
         </footer>
         <script src="jsCopy/jquery-3.2.0.js"></script>
