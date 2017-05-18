@@ -398,7 +398,7 @@ footer {
         width:100%;
     } 
     
-    [href* = "tel"] + span {
+  #now {
         display :none; 
     }
     
