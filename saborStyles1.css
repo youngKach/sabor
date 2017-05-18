@@ -397,6 +397,10 @@ footer {
     div.photopad, .menuDisplay, .mapCont + div, #row2  {
         width:100%;
     } 
+    
+    .menuDisplay {
+        height:400px;
+    }
 
     .w3-small {
         font-size:8px !important; 
@@ -457,10 +461,6 @@ footer {
     div.w3-display-bottommiddle {
         margin-bottom:20px;
     }
-
-    div.photopad, .menuDisplay, .mapCont + div, #row2  {
-        width:100%;
-    } 
 
     .w3-small {
         font-size:8px !important; 
