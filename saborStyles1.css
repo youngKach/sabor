@@ -398,7 +398,7 @@ footer {
         width:100%;
     } 
     
-    a[href ~= "tel"] span {
+    [href* = "tel"] + span {
         display :none; 
     }
     
