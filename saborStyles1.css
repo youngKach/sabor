@@ -398,6 +398,10 @@ footer {
         width:100%;
     } 
     
+    a[href ~= "tel"] span {
+        display :none; 
+    }
+    
     .menuDisplay {
         height:500px;
     }
