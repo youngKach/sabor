@@ -379,7 +379,11 @@ footer {
         margin-top: 12px;
         margin-left: -10px;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> ca5dbe84d2ae3582b38679052691abcf5e085f45
     h1 {
         font-size: 40px;
     }
@@ -403,6 +407,14 @@ footer {
     div.photopad, .menuDisplay, .mapCont + div, #row2  {
         width:100%;
     } 
+    
+  #now {
+        display :none; 
+    }
+    
+    .menuDisplay {
+        height:500px;
+    }
 
     .w3-small {
         font-size:8px !important; 
@@ -463,10 +475,6 @@ footer {
     div.w3-display-bottommiddle {
         margin-bottom:20px;
     }
-
-    div.photopad, .menuDisplay, .mapCont + div, #row2  {
-        width:100%;
-    } 
 
     .w3-small {
         font-size:8px !important; 
