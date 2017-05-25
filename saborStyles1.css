@@ -374,6 +374,12 @@ footer {
 }
 
 @media only screen and (max-width: 667px) {
+    .logo {
+        width: 80px;
+        margin-top: 12px;
+        margin-left: -10px;
+    }
+
     h1 {
         font-size: 40px;
     }
@@ -447,7 +453,7 @@ footer {
     }
     .aboutWidth {
         width: 100%;
-       
+
     }
 
     div.jumbotron{
@@ -511,7 +517,7 @@ footer {
     }
     .aboutWidth {
         width: 100%;
-       
+
     }
 
 }
